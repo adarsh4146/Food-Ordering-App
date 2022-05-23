@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.Food_App">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ViewPager2_">
+        <activity android:name=".login.SharedPrefLogin"></activity>
+        <activity android:name=".CartView" />
+        <activity android:name=".login.EntryPage" />
+        <activity android:name=".login.LoginPage" />
+        <activity android:name=".login.Otp_Page" />
+        <activity android:name=".Dashboard" />
+        <activity android:name=".DetailsActivity2" />
+        <activity android:name=".Help" />
+        <activity android:name=".login.PhoneNumberActivity" />
+        <activity android:name=".login.OTPActivity" />
+        <activity android:name=".profile.SetupProfileActivity" />
+        <activity android:name=".profile.Profile" />
+        <activity android:name=".DetailsActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
